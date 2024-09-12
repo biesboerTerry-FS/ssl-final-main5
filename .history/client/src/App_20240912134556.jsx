@@ -31,6 +31,7 @@ function App() {
 			})
 			.catch((err) => {
 				console.log(err.message);
+				console.log("test", err.message);
 			});
 	}, []);
 
